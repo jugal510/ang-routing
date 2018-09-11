@@ -1,0 +1,10 @@
+<div style="padding: 10px">
+    <h2>Tab 3</h2>
+    <input type="text" ng-model="getText" placeholder="Add new item">
+    <input type="button" value="Add Item" ng-click="addItem()"><br/>
+    <div>
+        <ul class="list">
+            <li ng-bind="y" ng-repeat="y in newItem"></li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+body{
+    background: url(images/bg.jpg) top left repeat;
+}
+
+button{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+    position: relative;
+    background-color: aliceblue;
+    padding:10px;
+}
+.list{
+    list-style-type: square;
+}
+.show{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.show:hover{
+    width:65px;
+    height: 65px;
+}
+.bigShow{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,11 @@
+<div style="padding: 10px">
+    <h2>Tab 1</h2>
+Filter:
+    <select ng-model="fileType" ng-options="x.name for x in list"></select>
+    <h3>Selected Filter dropdown item: <span>{{fileType.name}}</span></h3>
+    <div>
+        <ul>
+            <li ng-repeat="x in items | filter:{type: fileType.type}">{{x.name}}</li>
+        </ul>
+    </div>
+</div>
